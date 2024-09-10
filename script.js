@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 data.sort((a, b) => b.pts - a.pts);
 
                 const tableBody = document.querySelector('#positions-table tbody');
-                tableBody.innerHTML = ''; // Limpiar el contenido actual
+                tableBody.innerHTML = ''; 
 
-                // Iterar sobre cada equipo en el JSON
+        
                 data.forEach((item, index) => {
                     const row = document.createElement('tr');
 
